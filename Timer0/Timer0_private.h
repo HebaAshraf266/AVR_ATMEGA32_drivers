@@ -18,7 +18,7 @@
 
 //FAST PWM, PHASE, CTC
 #define TIMER0_COMPARE_OUTPUT_MODE_COM00                  4
-#define TIMER0_COMPARE_OUTPUT_MODE_COM01			      5
+#define TIMER0_COMPARE_OUTPUT_MODE_COM01			            5
 
 //Prescaller
 #define TIMER0_CLOCK_SELECT_CS00                          0
