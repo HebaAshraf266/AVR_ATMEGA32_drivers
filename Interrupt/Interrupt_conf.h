@@ -1,8 +1,9 @@
 /*
- * Interrupt_conf.h
- *
- *  Created on: Jan 15, 2023
- *      Author: user
+ *  Name        : Interrupt_conf.h
+ *  Description : This file contains user configurations
+ *  Created on  : Jan 15, 2023
+ *  Author      : Heba Ashraf
+ *  Version     : v0.0
  */
 
 #ifndef MCAL_INTERRUPT_INTERRUPT_CONF_H_
