@@ -1,14 +1,23 @@
 /*
- * dio_src.c
- *
- *  Created on: Dec 16, 2022
- *      Author: user
+ *  Name        : DIO_src.c
+ *  Description : This file contains functions implementation of DIO
+ *  Created on  : Dec 16, 2022
+ *  Author      : Heba Ashraf
+ *  Version     : v0.0
  */
+
+/**************************************************************************************************/
+/*                                             Includes                                           */
+/**************************************************************************************************/
 #include "../../SERV/STD_Types.h"
 #include "../../SERV/BitMath.h"
 #include "DIO_REG.h"
 #include "DIO_int.h"
 
+
+/**************************************************************************************************/
+/*                                    Functions implementation                                    */
+/**************************************************************************************************/
 // Set port DIRECTION
 uint8 DIO_u8SetPORTDir(uint8 u8PortIdCopy, uint8 u8DirCopy){
 	uint8 errStatus =E_OK;
