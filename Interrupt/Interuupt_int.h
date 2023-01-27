@@ -1,14 +1,24 @@
 /*
- * Interuupt_int.h
- *
- *  Created on: Jan 15, 2023
- *      Author: user
+ *  Name        : Interuupt_int.h
+ *  Description : This file contains prototypes of Interuupt functions
+ *  Created on  : Jan 15, 2023
+ *  Author      : Heba Ashraf
+ *  Version     : v0.0
  */
 
+/**************************************************************************************************/
+/*                                          Includes                                             */
+/**************************************************************************************************/
 #include "Interrupt_conf.h"
+
 #ifndef MCAL_INTERRUPT_INTERUUPT_INT_H_
 #define MCAL_INTERRUPT_INTERUUPT_INT_H_
 
+
+
+/**************************************************************************************************/
+/*                                    Functions prototypes                                        */
+/**************************************************************************************************/
 /*
  * Function   : Enable interrupt
  * Parameters : Interrupt number , pointr to function to store int in vector table
