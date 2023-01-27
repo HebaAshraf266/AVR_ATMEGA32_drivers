@@ -1,8 +1,9 @@
 /*
- * DIO_int.h
- *
- *  Created on: Dec 16, 2022
- *      Author: user
+ *  Name        : DIO_int.h
+ *  Description : This file contains functions prototypes of DIO
+ *  Created on  : Dec 16, 2022
+ *  Author      : Heba Ashraf
+ *  Version     : v0.0
  */
 
 #ifndef DIO_INT_H_
@@ -30,12 +31,12 @@
 #define HIGH          1
 #define TOGGLE        2
 
-#define PUE			  1
+#define PUE		    	  1
 
 #define FULL_OUTPUT  0xff
 #define FULL_INPUT   0x00
 
-#define E_OK		  0
+#define E_OK		      0
 #define E_NOK         1
 
 /*---------------------------------------------------Macros end----------------------------------------------------------*/
