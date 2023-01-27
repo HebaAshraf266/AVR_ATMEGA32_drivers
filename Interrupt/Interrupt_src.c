@@ -1,10 +1,16 @@
 /*
- * Interrupt_src.c
- *
- *  Created on: Jan 15, 2023
- *      Author: user
+ *  Name        : Interrupt_src.c
+ *  Description : This file contains implementation of Interrupt functions
+ *  Created on  : Jan 15, 2023
+ *  Author      : Heba Ashraf
+ *  Version     : v0.0
  */
 
+
+
+/**************************************************************************************************/
+/*                                            Includes                                           */
+/**************************************************************************************************/
 #include "../../SERV/STD_Types.h"
 #include "../../SERV/BitMath.h"
 #include "Interrupt_conf.h"
@@ -102,7 +108,11 @@ void __vector_5(void){
 
 	  ptrTimer2_OVF();
 }
-/****************************************** Functions ******************************************/
+
+
+/**************************************************************************************************/
+/*                                    Functions implementation                                    */
+/**************************************************************************************************/
 void Interrupt_u8EnableGlobalRegister(){
 
 	SET_BIT(GLOBAL_INTRRUPT_REG,GLOBAL_INTRRUPT_I_BIT);
