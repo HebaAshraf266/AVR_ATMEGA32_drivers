@@ -18,4 +18,5 @@ This is a repository for peripheral and Module drivers for **AVR Atmega32**
  >- CLR_BIT
  >- GET_BIT
  >- TOGGLE_BIT
+ 
 > STD_Types.h: It has standard data types to make it clearer.
