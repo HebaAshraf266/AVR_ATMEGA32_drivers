@@ -3,14 +3,15 @@ This is a repository for peripheral and Module drivers for **AVR Atmega32**
 
 ## **List of drivers:**
 >- MCAL_DIO
+>- MCAL_Interrupt
+>- MCAL_Timer0
+>- MCAL_SPI
 >- HALL_LED & Buzzer
 >- HALL_Seven Segment
 >- HALL_Push button
 >- HALL_Keypad
 >- HALL_LCD
->- MCAL_Interrupt
->- MCAL_Timer0
->- MCAL_SPI
+
 
 
 # Helpful Files:
