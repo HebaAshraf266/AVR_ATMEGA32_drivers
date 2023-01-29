@@ -10,6 +10,7 @@ This is a repository for peripheral and Module drivers for **AVR Atmega32**
 >- LCD
 >- Interrupt
 >- Timer0
+>- SPI
 
 
 # Helpful Files:
